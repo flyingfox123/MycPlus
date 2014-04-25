@@ -1,0 +1,26 @@
+﻿生成启动时间为 2014/4/25 16:03:49。
+     1>项目“d:\documents\visual studio 2010\Projects\mycplus\mycplus\mycplus.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\mycplus.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>d:\documents\visual studio 2010\projects\mycplus\mycplus\test.cpp(16): error C2473: “screens”: 看起来像函数定义，但却没有参数列表。
+     1>d:\documents\visual studio 2010\projects\mycplus\mycplus\test.cpp(16): error C2059: 语法错误:“常量”
+     1>d:\documents\visual studio 2010\projects\mycplus\mycplus\test.cpp(16): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>d:\documents\visual studio 2010\projects\mycplus\mycplus\test.cpp(16): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\documents\visual studio 2010\projects\mycplus\mycplus\test.cpp(16): warning C4183: “Screen”: 缺少返回类型；假定为返回“int”的成员函数
+     1>d:\documents\visual studio 2010\projects\mycplus\mycplus\test.cpp(18): error C2059: 语法错误:“}”
+     1>d:\documents\visual studio 2010\projects\mycplus\mycplus\test.cpp(18): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>d:\documents\visual studio 2010\projects\mycplus\mycplus\test.cpp(18): error C2059: 语法错误:“}”
+     1>d:\documents\visual studio 2010\projects\mycplus\mycplus\test.cpp(20): error C2146: 语法错误: 缺少“;”(在标识符“sc”的前面)
+     1>d:\documents\visual studio 2010\projects\mycplus\mycplus\test.cpp(20): error C3867: “win::Screen”: 函数调用缺少参数列表；请使用“&win::Screen”创建指向成员的指针
+     1>d:\documents\visual studio 2010\projects\mycplus\mycplus\test.cpp(20): error C3861: “sc”: 找不到标识符
+     1>d:\documents\visual studio 2010\projects\mycplus\mycplus\test.cpp(21): error C2065: “sc”: 未声明的标识符
+     1>d:\documents\visual studio 2010\projects\mycplus\mycplus\test.cpp(21): error C2228: “.height”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>已完成生成项目“d:\documents\visual studio 2010\Projects\mycplus\mycplus\mycplus.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.12
