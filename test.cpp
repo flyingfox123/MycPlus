@@ -20,7 +20,7 @@ void win::clear(index i){
 	Screen sc(24,80,' ');
 	cout<<sc.height<<endl;
 }
-void main(){
+void main(){	    
 	win w;
 	w.clear(1);
 	
