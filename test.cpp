@@ -17,11 +17,14 @@ public:
 	//vector<Screen> screens;
 };
 void win::clear(index i){
-	Screen sc(24,80,' ');
-	cout<<sc.height<<endl;
+	Screen::pos ht=24,wd=80;
+	Screen sc(ht,wd,'a');	  
+	Screen *p = &sc;
+	char c=p->get();
+	cout<<c<<endl;
 }
-void main(){	    
+/**
+void main(){
 	win w;
 	w.clear(1);
-	
-}
+}		  */
